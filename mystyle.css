@@ -1,0 +1,49 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+}
+div 
+{
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.outerPage
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: blue;
+  width: 100%;
+  /* height: 100%; */
+
+}
+.grid
+{
+  display: Flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 50%;
+  border: 5px solid black;
+  /* padding: 10px; */
+}
+.midBoxes
+{
+  /* box-sizing: border-box;  */
+  display: Flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 33.334%;
+  height: 33.334%;
+  border: 1px solid black;;
+
+}
+.innerBoxes
+{
+  background-color: whitesmoke;
+  width: 33.334%;
+  padding-bottom: 33.334%;
+  border: 1px solid black;
+}
