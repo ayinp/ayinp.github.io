@@ -1,77 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/cheese.css">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <script defer src="script.js"></script>
 
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>cheese</title>
+    <title>blackJack</title>
 
 </head>
+<html>
 
 <body>
-    <div class="page">
-    <h1 class="title">Top Cheeses of the Day!</h1>
-    <div class="lists">
-    <div class="favorites">
-    <h3>My Favorites:</h3>
-    <ul>
-        <li><a href="html/goat.html"><strong>goat cheese</strong></a></li>
-        <li><a href="html/gouda.html">gouda cheese</a></li>
-        <li><a href="html/cheddar.html">cheddar cheese</a></li>
-        <li><a href="html/parmesan.html">parmesan cheese</a></li>
-    </ul>
-    </div>
-    <div class="wierd">
-    <h3>Wierd Cheeses:</h3>
-    <ul>
-        <li><a href="html/blue.html">blue cheese</a></li>
-        <li><a href="html/swiss.html">swiss cheese</a></li>
-        <li><a href="html/curds.html">curds of cheese</a></li>
-    </ul>
-    </div>
-    </div>
-    <div class="data">
-    <p>I have gathered data and asked 20 people to rate the listed cheeses on a scale 1-5.</p>
-    <p>There is a helpful table below :)</p>
-    <table>
-        <tr>
-            <th>____</th>
-            <th>Gouda</th>
-            <th>Cheddar</th>
-            <th>Parmesan</th>
-            <th>Goat</th>
-            <th>Blue</th>
-            <th>Swiss</th>
-            <th>Curds</th>
-        </tr>
-        <tr>
-            <th>total</th>
-            <td>53</td>
-            <td>74</td>
-            <td>78</td>
-            <td>51</td>
-            <td>32</td>
-            <td>57</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <th>average (1-5)</th>
-            <td>2.65</td>
-            <td>3.7</td>
-            <td>3.9</td>
-            <td>2.55</td>
-            <td>1.6</td>
-            <td>2.85</td>
-            <td>3</td>
-        </tr>
-    </table>
-    </div>
-    <h2>The BEST cheese is parmesan, and the worst is blue! (my favorite is still goat cheese though)</h2>
-    </div>
+    <main class="page">
+        <section class="cards">
+            <section id="houseHand" class="opponent">
+
+            </section>
+            <section id="playerHand" class="player">
+
+            </section>
+        </section>
+        <section class="buttons">
+            <a>
+                <img onClick="hit()" src="images/hitButton.png" alt="hit" width="140" height="60" />
+                <img onClick="hit()" src="images/hitButtonSel.png" alt="hit" width="140" height="60" />
+            </a>
+            <a>
+                <img onClick="endGame()" src="images/standButton.png" alt="stand" width="140" height="60" />
+                <img onClick="endGame()" src="images/standButtonSel.png" alt="stand" width="140" height="60" />
+            </a>
+            <a id = "playAgain">
+            <img onClick="playAgain()" src="images/playAgainButton.png" alt="stand" width="240" height="60" />
+            <img onClick="playAgain()" src="images/playAgainButtonSel.png" alt="stand" width="240" height="60" />
+            </a>
+        </section>
+        <section id="result" class="result">
+        </section>
+    </main>
 </body>
 
 </html>
