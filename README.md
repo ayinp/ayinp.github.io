@@ -1,1 +1,0 @@
-# ayinp.github.io
