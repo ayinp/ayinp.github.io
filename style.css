@@ -1,0 +1,100 @@
+body{
+    background-color:antiquewhite;
+}
+
+div{
+    padding:0.1%;
+}
+
+button{
+    background-color: cornsilk;
+    border-color:blanchedalmond;
+    padding:.1%;
+    margin: .1%;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size:medium;
+
+}
+
+#container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color:blanchedalmond;
+    padding:2%;
+}
+
+#stats{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width:15%;
+    padding:1%;
+    margin-left:10%;
+    margin-right:10%;
+} 
+
+#titles{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#days{
+    font-size: larger;
+    text-align: center;
+}
+
+#art{
+    align-content:center;
+    padding:1%;
+    margin-left:10%;
+    margin-right:10%;
+    width:15%;
+}
+
+#question{
+    text-align:center;
+    font-size:larger;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+
+}
+
+#options{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#normal{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+#ass{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#assignments{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+
+
